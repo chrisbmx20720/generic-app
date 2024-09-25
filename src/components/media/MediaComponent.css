@@ -1,0 +1,18 @@
+/* MediaComponent.css */
+.small-text {
+  font-size: 16px;
+}
+
+.custom-tabs .nav-link {
+  font-size: 18px !important;
+}
+
+.featured-image-thumbnail{
+  width: 150px;
+  height: 150px;
+}
+
+#mediaContainer{
+  overflow-y: scroll;
+  max-height: 500px;
+}

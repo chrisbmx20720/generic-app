@@ -1,0 +1,14 @@
+.image-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .image-square {
+    object-fit: cover; 
+    width: 100%;
+    height: 130px; 
+    border-radius: 0;
+  }
+  

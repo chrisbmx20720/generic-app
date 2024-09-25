@@ -1,0 +1,19 @@
+.menu-text{
+    padding:0px 5px;
+}
+/*
+.nav-link {
+    padding-left: 1rem;
+    position: relative;
+    transition: border-left 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    border-left: 2px solid blue;
+    color:blue;
+  }*/
+@media only screen and (max-width: 900px) {
+    .menu-text{
+        display: none;
+    }
+  }

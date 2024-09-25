@@ -1,0 +1,231 @@
+{
+  "users": [
+    {
+      "name": "Miguel",
+      "lastname": "Fernandez",
+      "phone": "71234568",
+      "email": "miguel.fernandez@gmail.com",
+      "username": "miguelF",
+      "password": "miguel2021",
+      "id": "b007"
+    },
+    {
+      "name": "Elena",
+      "lastname": "Ramirez",
+      "phone": "76458923",
+      "email": "elena.ramirez@gmail.com",
+      "username": "elenar89",
+      "password": "ramirez567",
+      "id": "b008"
+    },
+    {
+      "name": "Maria",
+      "lastname": "Morales",
+      "phone": "71239845",
+      "email": "ana.morales@gmail.com",
+      "username": "anamorale87",
+      "password": "moralesana",
+      "id": "b010"
+    },
+    {
+      "name": "Laura",
+      "lastname": "Vargas",
+      "phone": "76985214",
+      "email": "laura.vargas@gmail.com",
+      "username": "laurav19",
+      "password": "laurapass",
+      "id": "b012"
+    },
+    {
+      "name": "Ricardo",
+      "lastname": "Ortega",
+      "phone": "74859621",
+      "email": "ricardo.ortega@gmail.com",
+      "username": "rortega72",
+      "password": "rortega21",
+      "id": "b013"
+    },
+    {
+      "name": "Valentina",
+      "lastname": "Navarro",
+      "phone": "73458962",
+      "email": "valentina.navarro@gmail.com",
+      "username": "valnavarro",
+      "password": "valen234",
+      "id": "b014"
+    },
+    {
+      "name": "Pedro",
+      "lastname": "Rojas",
+      "phone": "75912346",
+      "email": "pedro.rojas@gmail.com",
+      "username": "pedror",
+      "password": "rojaspedro",
+      "id": "b015"
+    },
+    {
+      "name": "Felipe",
+      "lastname": "Gonzalez",
+      "phone": "71459832",
+      "email": "felipe.gonzalez@gmail.com",
+      "username": "fgonzalez22",
+      "password": "gonzalezf",
+      "id": "b017"
+    },
+    {
+      "name": "Camila",
+      "lastname": "Silva",
+      "phone": "78965412",
+      "email": "camila.silva@gmail.com",
+      "username": "csilva",
+      "password": "silvacamila",
+      "id": "b018"
+    },
+    {
+      "id": "8ecd",
+      "name": "Manuel",
+      "lastname": "Acevedo",
+      "phone": "78596874",
+      "email": "manu@gmail.com",
+      "username": "manubmx20",
+      "password": "010101"
+    },
+    {
+      "id": "d6c9",
+      "name": "Mafer",
+      "lastname": "Garita",
+      "phone": "83314789",
+      "email": "mag@gmail.com",
+      "username": "mafer",
+      "password": "010101"
+    }
+  ],
+  "products": [
+    {
+      "id": "d004",
+      "name": "Pintura Total",
+      "description": "Aqui se hace toda la pintada del automovil bla bla bla",
+      "excerpt": "fegr5yhrghrhreh",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "",
+      "width": "",
+      "weight": "",
+      "price": "250000",
+      "category": "electronics",
+      "tags": "",
+      "image": {
+        "title": "",
+        "alt": "señor con brazos cruzados",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1726238079725-small-business.png"
+      }
+    },
+    {
+      "id": "f53b",
+      "name": "edfsedsdfgb",
+      "description": "sdgsdgsdgdgd",
+      "excerpt": "dgdsdgdgh",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "4",
+      "width": "6",
+      "weight": "",
+      "price": "10",
+      "category": "",
+      "tags": "",
+      "image": {
+        "title": "",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1726453372624-Home - Koodegras.png"
+      }
+    },
+    {
+      "id": "c68d",
+      "name": "ELote Con mantequilla",
+      "description": "efefefef",
+      "excerpt": "",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": true,
+      "height": "",
+      "width": "",
+      "price": "2500",
+      "category": "",
+      "tags": "",
+      "image": {
+        "title": "1726094219187-bread_breakfast_bakery_pastry_icon_220866.png",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1726094219187-bread_breakfast_bakery_pastry_icon_220866.png"
+      }
+    },
+    {
+      "id": "958b",
+      "name": "ddwefefffefd",
+      "description": "",
+      "excerpt": "",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "",
+      "width": "",
+      "price": "",
+      "category": "",
+      "tags": "",
+      "image": {
+        "title": "1726238079725-small-business.png",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1726238079725-small-business.png"
+      }
+    }
+  ],
+ "productCategories": [
+    {
+      "id": "cat001",
+      "name": "Breads",
+      "description": "Freshly baked breads including sourdough, whole grain, and baguettes.",
+      "isFeatured": true
+    },
+    {
+      "id": "cat002",
+      "name": "Pastries",
+      "description": "Delicious pastries such as croissants, danishes, and turnovers.",
+      "isFeatured": true
+    },
+    {
+      "id": "cat003",
+      "name": "Cakes",
+      "description": "A variety of cakes for special occasions and daily indulgence.",
+      "isFeatured": true
+    },
+    {
+      "id": "cat004",
+      "name": "Cookies",
+      "description": "Homemade cookies including chocolate chip, oatmeal, and sugar cookies.",
+      "isFeatured": false
+    },
+    {
+      "id": "cat005",
+      "name": "Savory Baked Goods",
+      "description": "Baked goods with a savory twist like quiches, pies, and tarts.",
+      "isFeatured": false
+    },
+    {
+      "id": "cat006",
+      "name": "Artisan Breads",
+      "description": "Handcrafted, high-quality breads made with traditional methods.",
+      "isFeatured": true
+    },
+    {
+      "id": "cat007",
+      "name": "Gluten-Free Baked Goods",
+      "description": "A selection of gluten-free breads and pastries for dietary needs.",
+      "isFeatured": false
+    }
+  ]
+}
