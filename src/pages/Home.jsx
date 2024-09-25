@@ -5,9 +5,9 @@ import HomeNavBar from '../components/navbar/HomeNavbar';
 import '../styles/Home.css'
 import FooterComponent from '../components/footer/FooterComponent';
 import ContactForm from '../components/forms/ContactForm';
-//import ShowProducts from '../components/products/views/ShowProducts';
+import ShowProducts from '../components/products/views/ShowProducts';
 
-import ProductSlider from '../components/products/views/ProductSlider'
+//import ProductSlider from '../components/products/views/ProductSlider'
 
 export default function Home() {
   return (
@@ -24,8 +24,14 @@ export default function Home() {
 
     <Container className='bg-light'>
         <Row className='py-5'>
-            {/*<ShowProducts/>*/}
+            {/*
+
+            
             <ProductSlider/>
+            */}
+
+            <ShowProducts/>
+            
             
         </Row>
     </Container>

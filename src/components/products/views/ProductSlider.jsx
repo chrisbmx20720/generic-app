@@ -1,10 +1,23 @@
 // ProductSlider.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import ProductCard from '../../products/cards/ProductCard'
+import { getProducts } from '../../../services/ProductService'
 
-const ProductSlider = ({ products }) => {
+const ProductSlider = () => {
+
+  const [Products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const fetchedProducts = await getProducts();
+      setProducts(fetchedProducts);
+    };
+    fetchProducts();
+  }, []);
+
+
   return (
     <Swiper
       spaceBetween={30}
@@ -13,7 +26,7 @@ const ProductSlider = ({ products }) => {
       pagination={{ clickable: true }}
       className="mySwiper"
     >
-      {products.map((product) => (
+      {Products.map((product) => (
         <SwiperSlide key={product.id}>
           <ProductCard product={product} />
         </SwiperSlide>
