@@ -102,29 +102,8 @@
   ],
   "products": [
     {
-      "id": "d004",
-      "name": "Pintura Total",
-      "description": "Aqui se hace toda la pintada del automovil bla bla bla",
-      "excerpt": "fegr5yhrghrhreh",
-      "provider": "",
-      "quantity": "",
-      "isFeatured": false,
-      "height": "",
-      "width": "",
-      "weight": "",
-      "price": "250000",
-      "category": "electronics",
-      "tags": "",
-      "image": {
-        "title": "",
-        "alt": "señor con brazos cruzados",
-        "description": "",
-        "url": "http://localhost:5000/uploads/1726238079725-small-business.png"
-      }
-    },
-    {
       "id": "f53b",
-      "name": "edfsedsdfgb",
+      "name": "Producto  A Editar",
       "description": "sdgsdgsdgdgd",
       "excerpt": "dgdsdgdgh",
       "provider": "",
@@ -134,7 +113,7 @@
       "width": "6",
       "weight": "",
       "price": "10",
-      "category": "",
+      "category": "cat001",
       "tags": "",
       "image": {
         "title": "",
@@ -144,28 +123,8 @@
       }
     },
     {
-      "id": "c68d",
-      "name": "ELote Con mantequilla",
-      "description": "efefefef",
-      "excerpt": "",
-      "provider": "",
-      "quantity": "",
-      "isFeatured": true,
-      "height": "",
-      "width": "",
-      "price": "2500",
-      "category": "",
-      "tags": "",
-      "image": {
-        "title": "1726094219187-bread_breakfast_bakery_pastry_icon_220866.png",
-        "alt": "",
-        "description": "",
-        "url": "http://localhost:5000/uploads/1726094219187-bread_breakfast_bakery_pastry_icon_220866.png"
-      }
-    },
-    {
-      "id": "958b",
-      "name": "ddwefefffefd",
+      "id": "c7b1",
+      "name": "Miercoles 2024",
       "description": "",
       "excerpt": "",
       "provider": "",
@@ -174,17 +133,17 @@
       "height": "",
       "width": "",
       "price": "",
-      "category": "",
+      "category": "cat001",
       "tags": "",
       "image": {
-        "title": "1726238079725-small-business.png",
+        "title": "1725865631327-local-seo - Copy.png",
         "alt": "",
         "description": "",
-        "url": "http://localhost:5000/uploads/1726238079725-small-business.png"
+        "url": "http://localhost:5000/uploads/1725865631327-local-seo - Copy.png"
       }
     }
   ],
- "productCategories": [
+  "productCategories": [
     {
       "id": "cat001",
       "name": "Breads",

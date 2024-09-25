@@ -27,9 +27,8 @@ export function Routing() {
               <Route path='products' element={<Products />} />
               <Route path="products/:id" element={<EditProduct/>}/>
               <Route path='users' element={<Users />}/>
-              
               <Route path="users/edit-user/:id" element={<EditUser/>}/> 
-              <Route path='media' element={<Media />} />
+              <Route path='media' element={<Media/>} />
               <Route path='services' element={<Services />} />
               <Route path='settings' element={<Settings />} />
           </Route>

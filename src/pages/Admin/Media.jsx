@@ -13,8 +13,6 @@ export default function Media() {
             <Button variant="outline-dark" className="ms-3">Add New File</Button>
         </Col>
     </Row>
-
-      <UploadImage/>
       <ImageGallery/>
     </div>
   )

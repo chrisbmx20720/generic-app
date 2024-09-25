@@ -31,7 +31,7 @@ export function ImageGallery({ onSelectImage }) {
 
   return (
     <div className="container mt-5 pb-4">
-      <UploadImage updateGallery={updateGallery} />
+      <UploadImage className="m-2" updateGallery={updateGallery}/>
       {loading && <p className="text-center">Loading images...</p>}
       {error && <p className="text-center text-danger">{error}</p>}
       <div className="row">

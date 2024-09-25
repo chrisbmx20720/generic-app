@@ -43,12 +43,13 @@ export const GetProductById = async (id) => {
         },
         body: JSON.stringify(product),
       });
-  
+  /*
       if (response.ok) {
         alert("Sucessfully Saved!");
       } else {
         alert("Error Saving Entity.");
-      }
+      }*/
+     
     } catch (error) {
       console.error("Error:", error);
     }
@@ -60,9 +61,7 @@ export const GetProductById = async (id) => {
     );
 }
 
-
 export async function PutProduct(product) {
-
 
   const productData = product
 

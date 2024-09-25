@@ -2,3 +2,11 @@
 body {
     background-color:aliceblue;
 }
+
+.nav-link{
+    padding:10px 10px;
+}
+
+a.nav-link:hover{
+    color:#ffc800;
+}

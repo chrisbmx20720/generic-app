@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import MediaComponent from '../../components/media/MediaComponent';
 import '../../components/products/Product.css';
 import { getProductCategories, postProductCategory } from '../../services/CategoryService';
-import { useParams } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
 import { GetProductById, PutProduct } from '../../services/ProductService';
 
 export default function EditProduct() {
@@ -47,7 +47,8 @@ export default function EditProduct() {
   const fetchProductById = async () => {
     try {
       const data = await GetProductById(id);
-      setProduct(data); // Cargar los datos del producto en el formulario
+      setProduct(data);
+      localStorage.setItem("imageData", JSON.stringify(data.image));
     } catch (err) {
       setError('Error loading product');
     }
@@ -92,10 +93,15 @@ export default function EditProduct() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-
     try {
-      await PutProduct(product); // Editar el producto
-      toast.success('Product updated successfully');
+      await PutProduct(product); 
+      <Navigate to="/admin/products/"/>
+    
+      toast.success(`Product updated successfully`,{
+        autoClose: 1000
+        })
+
+
     } catch (err) {
       setError(err.message);
     } finally {
@@ -133,6 +139,21 @@ export default function EditProduct() {
         {/* Left column: Product form */}
         <Col lg={9}>
           <Form onSubmit={handleSubmit}>
+            <Row className="align-items-center mb-4">
+                <Col>
+                  <h2 className="mb-0">Edit Product</h2>
+                </Col>
+
+                <Col className="d-flex justify-content-end">
+                <Button
+                variant="primary"
+                type="submit"
+                disabled={loading}
+                >
+                {loading ? 'Updating...' : 'Update Product'}
+                </Button>
+                </Col>
+            </Row>
             <Form.Group controlId="productName">
               <Form.Label>Product Name</Form.Label>
               <Form.Control
@@ -264,17 +285,10 @@ export default function EditProduct() {
             </Card.Body>
           </Card>
 
-          <Button
-              variant="primary"
-              type="submit"
-              disabled={loading}
-            >
-              {loading ? 'Updating...' : 'Update Product'}
-            </Button>
+          
 
           {/* Tags */}
           <Card className="mb-3">
-            <Card.Header>Tags</Card.Header>
             <Card.Body>
               <Form.Group controlId="productTags">
                 <Form.Control

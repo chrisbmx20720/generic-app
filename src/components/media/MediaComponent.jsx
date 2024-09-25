@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { Container, Row, Col, Tab, Tabs, Form, Button } from 'react-bootstrap';
 import './MediaComponent.css'; 
 import { UploadImage } from '../test/UploadImage';
@@ -21,6 +21,13 @@ const MediaComponent = ({ onImageSubmit }) => {
       title: image.title || '' // Set title if available
     });
   };
+
+  useEffect(() => {
+    const storedImageData = localStorage.getItem('imageData');
+    if (storedImageData) {
+      setFormData(JSON.parse(storedImageData)); // Load stored image data into formData
+    }
+  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
