@@ -6,6 +6,7 @@ import '../styles/Home.css'
 import FooterComponent from '../components/footer/FooterComponent';
 import ContactForm from '../components/forms/ContactForm';
 import ShowProducts from '../components/products/views/ShowProducts';
+import MapComponent from '../components/map/MapComponent';
 
 //import ProductSlider from '../components/products/views/ProductSlider'
 
@@ -55,6 +56,13 @@ export default function Home() {
 
 
     <ContactForm/>
+
+
+    <Container fluid className='bg-light' style={{ padding: 0 }} >
+        <Row>
+            <MapComponent/>
+        </Row>
+    </Container>
     <FooterComponent/>
 
 
