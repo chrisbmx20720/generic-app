@@ -100,10 +100,10 @@
       "password": "010101"
     }
   ],
-  "products": [
+"products": [
     {
       "id": "f53b",
-      "name": "Producto  A Editar",
+      "name": "Producto A Editar",
       "description": "sdgsdgsdgdgd",
       "excerpt": "dgdsdgdgh",
       "provider": "",
@@ -124,7 +124,7 @@
     },
     {
       "id": "c7b1",
-      "name": "Miercoles 2024",
+      "name": "Rosquillas",
       "description": "",
       "excerpt": "",
       "provider": "",
@@ -136,13 +136,134 @@
       "category": "cat001",
       "tags": "",
       "image": {
-        "title": "1725865631327-local-seo - Copy.png",
+        "title": "1725865157616-social-media-management.png",
         "alt": "",
         "description": "",
-        "url": "http://localhost:5000/uploads/1725865631327-local-seo - Copy.png"
+        "url": "http://localhost:5000/uploads/1725865157616-social-media-management.png"
+      }
+    },
+    {
+      "id": "8d2b",
+      "name": "Pancito caliente",
+      "description": "",
+      "excerpt": "",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "4",
+      "width": "6",
+      "price": "2500",
+      "category": "cat002",
+      "tags": "",
+      "image": {
+        "title": "1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg"
+      }
+    },
+    {
+      "id": "new1",
+      "name": "Nuevo Producto Rosquillas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "",
+      "width": "",
+      "price": "",
+      "category": "cat001",
+      "tags": "",
+      "image": {
+        "title": "1725865157616-social-media-management.png",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1725865157616-social-media-management.png"
+      }
+    },
+    {
+      "id": "new2",
+      "name": "Nuevo Producto Pancito Caliente",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "4",
+      "width": "6",
+      "price": "2500",
+      "category": "cat002",
+      "tags": "",
+      "image": {
+        "title": "1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg"
+      }
+    },
+    {
+      "id": "new3",
+      "name": "Nuevo Producto A",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "4",
+      "width": "6",
+      "weight": "",
+      "price": "10",
+      "category": "cat001",
+      "tags": "",
+      "image": {
+        "title": "",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1726453372624-Home - Koodegras.png"
+      }
+    },
+    {
+      "id": "new4",
+      "name": "Nuevo Producto Rosquillas 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "",
+      "width": "",
+      "price": "",
+      "category": "cat001",
+      "tags": "",
+      "image": {
+        "title": "1725865157616-social-media-management.png",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1725865157616-social-media-management.png"
+      }
+    },
+    {
+      "id": "new5",
+      "name": "Nuevo Producto Pancito Caliente 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "provider": "",
+      "quantity": "",
+      "isFeatured": false,
+      "height": "4",
+      "width": "6",
+      "price": "2500",
+      "category": "cat002",
+      "tags": "",
+      "image": {
+        "title": "1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg",
+        "alt": "",
+        "description": "",
+        "url": "http://localhost:5000/uploads/1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg"
       }
     }
-  ],
+],
   "productCategories": [
     {
       "id": "cat001",

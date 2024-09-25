@@ -1,0 +1,5 @@
+.product-featured-image{
+    max-height: 175px;
+    min-height: 175px;
+    object-fit: cover;
+}

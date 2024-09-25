@@ -5,6 +5,9 @@ import HomeNavBar from '../components/navbar/HomeNavbar';
 import '../styles/Home.css'
 import FooterComponent from '../components/footer/FooterComponent';
 import ContactForm from '../components/forms/ContactForm';
+//import ShowProducts from '../components/products/views/ShowProducts';
+
+import ProductSlider from '../components/products/views/ProductSlider'
 
 export default function Home() {
   return (
@@ -19,10 +22,18 @@ export default function Home() {
     </div>
     </header>
 
-    <Container>
+    <Container className='bg-light'>
+        <Row className='py-5'>
+            {/*<ShowProducts/>*/}
+            <ProductSlider/>
+            
+        </Row>
+    </Container>
+
+    <Container fluid className='bg-light' style={{ padding: 0 }}>
             <Row>
                 {/* Columna izquierda (contenido) */}
-                <Col sm={6} className='py-5'>
+                <Col sm={6} className='py-5 px-5'>
                     <h2 className="section-heading text-uppercase">Acerca de Nosotros</h2>
                     <p className="section-subheading text-muted">Del Corazón a la Boca: disfruta de nuestros sabores artesanales.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
