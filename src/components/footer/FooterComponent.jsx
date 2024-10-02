@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import { FaTwitter, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import {FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 export default function FooterComponent() {
   return (
@@ -9,17 +9,15 @@ export default function FooterComponent() {
       <Container>
         <Row className="align-items-center">
           <Col lg={4} className="text-lg-start">
-            Copyright &copy; Your Website 2023
+            Copyright &copy; Tukún Tukún  2024
           </Col>
           <Col lg={4} className="my-3 my-lg-0 text-center">
-            <Button variant="dark" className="btn-social mx-2" href="#!" aria-label="Twitter">
-              <FaTwitter />
-            </Button>
-            <Button variant="dark" className="btn-social mx-2" href="#!" aria-label="Facebook">
+
+            <Button variant="dark" className="btn-social mx-2" href="https://www.facebook.com/tukuntukuncr" aria-label="Facebook">
               <FaFacebookF />
             </Button>
-            <Button variant="dark" className="btn-social mx-2" href="#!" aria-label="LinkedIn">
-              <FaLinkedinIn />
+            <Button variant="dark" className="btn-social mx-2" href="https://www.instagram.com/tukuntukuncr/" aria-label="LinkedIn">
+              <FaInstagram />
             </Button>
           </Col>
           <Col lg={4} className="text-lg-end">

@@ -4,15 +4,15 @@ import "leaflet/dist/leaflet.css";
 
 // Crear un componente funcional para el MapComponent
 const MapComponent = () => {
-  // Coordenadas iniciales del MapComponent y nivel de zoom
-  const position = [9.877940, -84.076095]; 
+  // Coordenadas para Santa Ana, Costa Rica y nivel de zoom
+  const position = [9.927840, -84.182530]; 
   const zoom = 15; // Ajusta el nivel de zoom
 
   return (
     <MapContainer
       center={position}
       zoom={zoom}
-      style={{ border: 'solid 2px #ffffff', padding: '5px', height: "200px", width: "100%"}}
+      style={{ border: 'solid 2px #ffffff', padding: '5px', height: "400px", width: "100%" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -23,4 +23,4 @@ const MapComponent = () => {
   );
 };
 
-export default MapComponent;
+export default MapComponent;

@@ -21,8 +21,6 @@ function HomeNavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="navbarResponsive">
           <Nav className="ms-auto text-uppercase py-4 py-lg-0">
-            <Nav.Link href="#services" onClick={() => setExpanded(false)}>Services</Nav.Link>
-            <Nav.Link href="#portfolio" onClick={() => setExpanded(false)}>Portfolio</Nav.Link>
             <Nav.Link href="#about" onClick={() => setExpanded(false)}>About</Nav.Link>
             <Nav.Link href="#team" onClick={() => setExpanded(false)}>Team</Nav.Link>
             <Nav.Link href="#contact" onClick={() => setExpanded(false)}>Contact</Nav.Link>

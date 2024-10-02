@@ -1,11 +1,11 @@
 {
   "users": [
     {
-      "name": "Miguel",
+      "name": "Miguel E",
       "lastname": "Fernandez",
       "phone": "71234568",
       "email": "miguel.fernandez@gmail.com",
-      "username": "miguelF",
+      "username": "miguelE",
       "password": "miguel2021",
       "id": "b007"
     },
@@ -98,14 +98,23 @@
       "email": "mag@gmail.com",
       "username": "mafer",
       "password": "010101"
+    },
+    {
+      "id": "53eb",
+      "name": "Manuel M",
+      "lastname": "Alvarez",
+      "phone": "71010174",
+      "email": "manu25@gmail.com",
+      "username": "manubmx20",
+      "password": "010101"
     }
   ],
-"products": [
+  "products": [
     {
       "id": "f53b",
       "name": "Producto A Editar",
-      "description": "sdgsdgsdgdgd",
-      "excerpt": "dgdsdgdgh",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "provider": "",
       "quantity": "",
       "isFeatured": false,
@@ -116,17 +125,17 @@
       "category": "cat001",
       "tags": "",
       "image": {
-        "title": "",
+        "title": "1726252858905-IMG_20240806_105258 - Tukun Tukuncr.jpg",
         "alt": "",
         "description": "",
-        "url": "http://localhost:5000/uploads/1726453372624-Home - Koodegras.png"
+        "url": "http://localhost:5000/uploads/1726252858905-IMG_20240806_105258 - Tukun Tukuncr.jpg"
       }
     },
     {
       "id": "c7b1",
       "name": "Rosquillas",
-      "description": "",
-      "excerpt": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "provider": "",
       "quantity": "",
       "isFeatured": false,
@@ -140,31 +149,11 @@
         "alt": "",
         "description": "",
         "url": "http://localhost:5000/uploads/1725865157616-social-media-management.png"
-      }
-    },
-    {
-      "id": "8d2b",
-      "name": "Pancito caliente",
-      "description": "",
-      "excerpt": "",
-      "provider": "",
-      "quantity": "",
-      "isFeatured": false,
-      "height": "4",
-      "width": "6",
-      "price": "2500",
-      "category": "cat002",
-      "tags": "",
-      "image": {
-        "title": "1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg",
-        "alt": "",
-        "description": "",
-        "url": "http://localhost:5000/uploads/1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg"
       }
     },
     {
       "id": "new1",
-      "name": "Nuevo Producto Rosquillas",
+      "name": "Nuevo Producto",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "provider": "",
@@ -183,49 +172,48 @@
       }
     },
     {
-      "id": "new2",
-      "name": "Nuevo Producto Pancito Caliente",
+      "id": "d11c",
+      "name": "Queque de Zanahoria",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "provider": "",
-      "quantity": "",
+      "quantity": "10",
       "isFeatured": false,
       "height": "4",
       "width": "6",
       "price": "2500",
-      "category": "cat002",
+      "category": "cat003",
       "tags": "",
       "image": {
-        "title": "1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg",
+        "title": "1727906441599-queque-zanahoria.jpg",
         "alt": "",
         "description": "",
-        "url": "http://localhost:5000/uploads/1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg"
+        "url": "http://localhost:5000/uploads/1727906441599-queque-zanahoria.jpg"
       }
     },
     {
-      "id": "new3",
-      "name": "Nuevo Producto A",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "id": "dd0f",
+      "name": "Galletas Craqueladas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n",
       "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "provider": "",
       "quantity": "",
       "isFeatured": false,
-      "height": "4",
-      "width": "6",
-      "weight": "",
-      "price": "10",
-      "category": "cat001",
+      "height": "",
+      "width": "",
+      "price": "",
+      "category": "cat004",
       "tags": "",
       "image": {
-        "title": "",
+        "title": "1727892252093-galletas-craqueladas.jpg",
         "alt": "",
         "description": "",
-        "url": "http://localhost:5000/uploads/1726453372624-Home - Koodegras.png"
+        "url": "http://localhost:5000/uploads/1727892252093-galletas-craqueladas.jpg"
       }
     },
     {
-      "id": "new4",
-      "name": "Nuevo Producto Rosquillas 2",
+      "id": "ca0a",
+      "name": "Queque de chocolate",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "provider": "",
@@ -234,36 +222,16 @@
       "height": "",
       "width": "",
       "price": "",
-      "category": "cat001",
+      "category": "cat003",
       "tags": "",
       "image": {
-        "title": "1725865157616-social-media-management.png",
-        "alt": "",
+        "title": "1727902004246-queque-chocolate.jpg",
+        "alt": "Queque de chocolate",
         "description": "",
-        "url": "http://localhost:5000/uploads/1725865157616-social-media-management.png"
-      }
-    },
-    {
-      "id": "new5",
-      "name": "Nuevo Producto Pancito Caliente 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "provider": "",
-      "quantity": "",
-      "isFeatured": false,
-      "height": "4",
-      "width": "6",
-      "price": "2500",
-      "category": "cat002",
-      "tags": "",
-      "image": {
-        "title": "1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg",
-        "alt": "",
-        "description": "",
-        "url": "http://localhost:5000/uploads/1726592538137-IMG_20240828_074955 - Tukun Tukuncr.jpg"
+        "url": "http://localhost:5000/uploads/1727902004246-queque-chocolate.jpg"
       }
     }
-],
+  ],
   "productCategories": [
     {
       "id": "cat001",
